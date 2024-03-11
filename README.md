@@ -3,11 +3,16 @@
 ```markdown
 O que você vai aprender
 
+- Listas de Cursos
 - Primeiros Passos
 - Seletores e elementos
 - Asserções e validações
 ```
+## Lista de Cursos
 
+* [Talking About Testing](https://talkingabouttesting.coursify.me/courses/introducao-aos-testes-automatizados) - Curso gratuito de introdução aos testes automatizados
+* [Agilizei](https://app.agilizei.com/pt) - Curso gratuito ensinando os primeiros passos
+  
 ## Primeiros Passos
 
 ### Estrutura básica
