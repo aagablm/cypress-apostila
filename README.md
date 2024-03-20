@@ -13,6 +13,7 @@ O que você vai aprender
 * [Talking About Testing](https://talkingabouttesting.coursify.me/courses/introducao-aos-testes-automatizados) - Curso gratuito de introdução aos testes automatizados
 * [Agilizei](https://app.agilizei.com/pt) - Curso gratuito ensinando os primeiros passos
 * [Pedro Hyvo](https://github.com/pedrohyvo/cypress-docs-pt-br) - Projeto com a tradução da documentação oficial do Cypress
+* [Livro Testes Automatizados de Software - Um guia prático](https://aeaab.com.br/assets/docs/Testes_automatizados_de_software_-_Um_guia_pr%23U00e1tico_-_Casa_do_Codigo.pdf) 
   
 ## Primeiros Passos
 
