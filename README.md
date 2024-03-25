@@ -1,4 +1,4 @@
-# Teste Cypress
+# Cypress
 
 ```markdown
 O que você vai aprender
