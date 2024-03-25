@@ -5,8 +5,6 @@ O que você vai aprender
 
 - Listas de Cursos
 - Primeiros Passos
-- Seletores e elementos
-- Asserções e validações
 ```
 ## Lista de Cursos
 
