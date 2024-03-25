@@ -38,3 +38,5 @@ describe('Testes de Login', () => {
 });
 
 ```
+
+É importante que os testes sejam independentes e que o resultado de um não afete o outro.
