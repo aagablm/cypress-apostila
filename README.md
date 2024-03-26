@@ -5,6 +5,7 @@ O que você vai aprender
 
 - Listas de Cursos
 - Primeiros Passos
+- Selecionando elementos
 ```
 ## Lista de Cursos
 
@@ -37,3 +38,19 @@ describe('Testes de Login', () => {
 ```
 
 É importante que os testes sejam independentes e que o resultado de um não afete o outro.
+
+### Selecionando Elementos
+Usamos os comando `cy.get()` e `cy.contains()`  obter um ou mais elementos do DOM.
+
+#### `cy.get()` Este comando é usado para obter um ou mais elementos do DOM. Ele pode ser usado com um seletor jQuery para obter elementos específicos. Por exemplo:
+```bash
+cy.get('.nav');
+```
+Obtém todos os elementos com a classe ‘nav’.
+
+#### `cy.contains()` Este comando é usado para obter o primeiro elemento do DOM que contém um texto específico. Ele pode ser usado de várias maneiras, exemplo:
+
+```bash
+cy.contains('Hello');
+```
+Obtém o primeiro elemento que contém o texto ‘Hello’.
