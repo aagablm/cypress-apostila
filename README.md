@@ -6,6 +6,7 @@ O que você vai aprender
 - Listas de Cursos
 - Primeiros Passos
 - Selecionando elementos
+- Visitando páginas
 ```
 ## Lista de Cursos
 
@@ -17,6 +18,9 @@ O que você vai aprender
 
 ### Estrutura básica
 A estrutura básica do Cypress envolve o uso de `describe` e `it` para organizar e escrever seus testes.
+```bash
+cy.get('.nav');
+```
 
 #### `Describe` é usado para agrupar testes relacionados. Ele cria um bloco de testes que podem ser aninhados conforme necessário.
 
@@ -50,6 +54,11 @@ Obtém todos os elementos com a classe ‘nav’.
 
 #### `cy.contains()` Este comando é usado para obter o primeiro elemento do DOM que contém um texto específico. Ele pode ser usado de várias maneiras, exemplo:
 
+### Visitando páginas
+ O comando `cy.visit()` é usado para navegar até uma URL específica. Ele carrega a página no navegador e aguarda o carregamento completo antes de continuar com a execução dos testes.
+```bash
+cy.visit(url)
+```
 ```bash
 cy.contains('Hello');
 ```
