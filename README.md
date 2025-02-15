@@ -53,13 +53,14 @@ cy.get('.nav');
 Obtém todos os elementos com a classe ‘nav’.
 
 #### `cy.contains()` Este comando é usado para obter o primeiro elemento do DOM que contém um texto específico. Ele pode ser usado de várias maneiras, exemplo:
+```bash
+cy.contains('Hello');
+```
+Obtém o primeiro elemento que contém o texto ‘Hello’.
 
 ### Visitando páginas
  O comando `cy.visit()` é usado para navegar até uma URL específica. Ele carrega a página no navegador e aguarda o carregamento completo antes de continuar com a execução dos testes.
 ```bash
 cy.visit(url)
 ```
-```bash
-cy.contains('Hello');
-```
-Obtém o primeiro elemento que contém o texto ‘Hello’.
+
